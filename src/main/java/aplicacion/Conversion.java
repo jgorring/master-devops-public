@@ -6,7 +6,7 @@ public class Conversion {
 		if (unit.equals("F")) {
 			return (temperature - 32) * (5.0/9.0);
 		} else {
-			return (temperature * (5.0/9.0)) + 32;
+			return (temperature * (9.0/5.0)) + 32;
 		}
 	}
 }
