@@ -5,7 +5,7 @@
   <artifactId>aplicacion</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>aplicacionMavenWebapp</name>
+  <name>${project.name}</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -14,6 +14,11 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+	<dependency>
+    		<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>maven-war-plugin</artifactId>
+    		<version>3.2.3</version>
+	</dependency>
         
   </dependencies>
     
