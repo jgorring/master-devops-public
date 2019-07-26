@@ -21,6 +21,6 @@ public class ConversionTest {
 		unit = "F";
 		result = underTest.tempConversion(temperature, unit);
 		assertEquals(80.0d, result, 0.0);
-		assertEquals(6.0d, result, 0.0);
+		//assertEquals(6.0d, result, 0.0);
 	}
 }
