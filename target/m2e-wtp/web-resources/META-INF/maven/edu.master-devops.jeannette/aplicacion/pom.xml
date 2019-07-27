@@ -17,7 +17,7 @@
   </dependencies>
     
   <build>
-    <finalName>${project.name}-${project.version}</finalName>
+    <finalName>${project.name}</finalName>
 	<plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
